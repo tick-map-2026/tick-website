@@ -1,0 +1,36 @@
+
+body {
+    font-family: Lora, serif;
+    color: rgb(25, 32, 4);
+    background-color: rgb(251, 252, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color:rgb(25, 32, 4);
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: Monstserrat, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
