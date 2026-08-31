@@ -14,7 +14,9 @@ main {
 }
 
 img {
-    width: 100%;
+    display: block;
+    width: min(900px, 100%);
+    margin: 0 auto;
 }
 
 a {
@@ -47,4 +49,12 @@ p {
 li {
     font-size: 0.9rem;
     margin: 0 0 1rem 1rem;
+}
+
+.img-container {
+    width: 100vw;
+    height: 50%;
+    margin-left: calc(50% - 50vw);
+    background-image: linear-gradient(to right,  rgb(251, 252, 249) 10%, #F2F2F2 20%, #F2F2F2 80%, rgb(251, 252, 249) 90%);
+    padding: 40px 0;
 }
