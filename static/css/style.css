@@ -2,7 +2,7 @@
 body {
     font-family: Lora, serif;
     color: rgb(25, 32, 4);
-    background-color: rgb(251, 252, 249);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
