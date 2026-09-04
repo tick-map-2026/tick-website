@@ -1,3 +1,7 @@
+html {
+    overscroll-behavior: none;
+}
+
 
 body {
     font-family: Lora, serif;
@@ -6,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 main {
@@ -53,12 +58,6 @@ li {
     overflow-wrap: break-word;
 }
 
-/*
-Source - https://stackoverflow.com/a/24918999
-Posted by JoeJ
-Retrieved 2026-09-01, License - CC BY-SA 3.0
-*/
-
 :target {
     animation: target-fade 3s;
     background-color: #6e8d2a5b;
@@ -85,7 +84,7 @@ Retrieved 2026-09-01, License - CC BY-SA 3.0
     position: absolute;
     width: 400px;
     left: calc(100% + 2rem);
-    transform: translateY(-2rem);
+    transform: translate(-1rem,-2rem);
     padding: 0.8rem;
 }
 
@@ -94,8 +93,66 @@ Retrieved 2026-09-01, License - CC BY-SA 3.0
     opacity: 1;
   }
 
+.hero {
+    width: 100dvw;
+    height: 100dvh;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    margin-top: -4rem;
+}
+
+.hero img {
+    width: 100dvw;
+    height: 100dvh;
+    object-fit: cover; 
+  display: block;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 1) 100%);
+    z-index: 1;
+}
+
+.text-box {
+  position: absolute;
+  width: min(600px, 100%);
+  height: min(600px, 100%);
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+@keyframes text-parallax {
+  from {
+    transform: translate(-50%, -50%);
+  }
+  to {
+    transform: translate(-50%, -25%);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  .text-box {
+    animation: text-parallax linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100vh; 
+  }
+}
+
   @media (max-width: 900px) {
     .cite .tooltip {
         display: none;
     }
+      .text-box {
+    animation: none;
+  }
 }
