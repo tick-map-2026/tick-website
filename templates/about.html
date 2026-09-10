@@ -1,97 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Overthinking about ticks</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400..700&family=Urbanist:wght@400..800&display=swap">
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-      <section class="hero">
-        <img class = "hero-img"src="/static/img/hero.jpeg" alt="Green Grass and blue sky">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Overthinking about ticks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400..700&family=Urbanist:wght@400..800&display=swap">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <section class="hero">
+     <!--  <img class="hero-img" src="/static/img/hero.jpeg" alt="Green Grass and blue sky"> -->
       <div class="text-box">
-      <div class="header">
-        <h1>We can't stop thinking about ticks—is it for good reason?</h1>
-        <p class="subtitle">Two data scientists' deep dive into why everyone seems to be talking about ticks this summer.</p>
-        <hr>
-      </div>
-      <div class="byline">
-        <p class="author-names">By <a href="https://www.linkedin.com/in/avani-adhikari103">Avani Adhikari</a> and <a href="https://www.linkedin.com/in/annaduan" >Anna Duan</a></p>
-        <span class="date">September 10, 2026</span>
-      </div>
+        <div class="header">
+          <h1>We couldn't stop thinking about ticks this summer—is it for good reason?</h1>
+          <p class="subtitle">Two data scientists' deep dive into why everyone seems to be talking about ticks this
+            summer.</p>
+          <hr>
+        </div>
+        <div class="byline">
+          <p class="author-names">By <a href="https://www.linkedin.com/in/avani-adhikari103">Avani Adhikari</a> and <a
+              href="https://www.linkedin.com/in/annaduan">Anna Duan</a></p>
+          <span class="date">September 10, 2026</span>
+        </div>
       </div>
     </section>
-        <p>
-          Like most other residents of the Northeast, we have always been aware of ticks, and the many risks associated with them. Yet, this summer, their presence felt heightened. We found lentil-sized bugs crawling on us after every hike; distant acquaintances started conversations complaining about tick bites; and almost every major newspaper seemed to be putting out explainers about these insects. 
-        </p>
-        <p>
-          Understandably, this resulted in an overwhelming panic. Is outside now banned? We despaired.
-        </p>
-        <p>
-          As data scientists (who were looking for any excuse to analyze this issue), we began looking at the data: are ticks really increasing? Or had our heightened awareness of them landed us in our own creepy-crawly echo chamber?
-        </p>
-        <img src="/static/img/frequency_illusion.png" alt="Was there something going on or was our awareness heightened due to our unfortunate encounters with ticks this summer?">
-        <p>
-          In short, yes -- ticks really are everywhere and maybe it is time to learn how to live with them. Beyond this new reality, however, we found an intricate web of conspiracy theories, misinformation, and lack of government guidance--in other words, the perfect storm for a new public health crisis.
-        </p>
+    <p>
+      Like most other residents of the Northeast, we have long been aware of ticks, and the many risks associated with
+      them. Yet, this summer, their presence felt heightened. We found lentil-sized bugs crawling on us after every
+      hike; distant acquaintances started conversations complaining about tick bites; and almost every major newspaper
+      seemed to be putting out explainers about these insects.
+    </p>
+    <p>
+      Understandably, this resulted in an overwhelming panic. Is outside now banned? We despaired.
+    </p>
+    <p>
+      As data scientists (who were looking for any excuse to analyze this issue), we began looking at the data: are
+      ticks really increasing? Or had our heightened awareness of them landed us in our own creepy-crawly echo chamber?
+    </p>
+    <img src="/static/img/frequency_illusion.png"
+      alt="Was there something going on or was our awareness heightened due to our unfortunate encounters with ticks this summer?">
+    <p>
+      In short, yes -- ticks really are everywhere and maybe it is time to learn how to live with them. Beyond this new
+      reality, however, we found an intricate web of conspiracy theories, misinformation, and lack of government
+      guidance--in other words, the perfect storm for a new public health crisis.
+    </p>
 
-        <h2>Rise of the Ticks</h2>
-        <p>
-          We were correct in at least half of our hypothesis—we are seeing more ticks because it is the season to see them. Tick populations, and our awareness of them, surge every summer. But this year has also seen a higher than usual presence of them. According to the CDC, tick bites this year are at a decade high[1] Google searches for ticks are also up: compared to the last ten summers, search interest almost doubled this year, marking an all-time high.
-        </p>
-        <img src="/static/img/tick_searches.png" alt="Google search interest for ticks over the past 5 years">
-        <p>This peak in tick activity follows a trend we have been seeing for the last few decades. Diseases spread by ticks have been steadily increasing even before this summer. Between 2020-2023, reported cases of Lyme disease, the most common vector-borne illness in the US, increased fourfold.[3] New diseases are exploding, too. Alpha gal syndrome, which causes severe mammalian meat allergy in humans, was first recognized in humans in 2011. Today, an estimated 450,000 people live with it and most scientists consider that an undercount.[4]</p>
-        <img src="/static/img/lyme_cases.png" alt="Reported cases of Lyme diseaseover the past 10 years">
+    <h2>Rise of the Ticks</h2>
+    <p>
+      We were correct in at least half of our hypothesis—we are seeing more ticks because it is the season to see them.
+      Tick populations, and our awareness of them, surge every summer. But this year has also seen a higher than usual
+      presence of them. According to the CDC, tick bites this year are at a decade high[1] Google searches for ticks are
+      also up: compared to the last ten summers, search interest almost doubled this year, marking an all-time high.
+    </p>
+    <img src="/static/img/tick_searches.png" alt="Google search interest for ticks over the past 5 years">
+    <p>This peak in tick activity follows a trend we have been seeing for the last few decades. Diseases spread by ticks
+      have been steadily increasing even before this summer. Between 2020-2023, reported cases of Lyme disease, the most
+      common vector-borne illness in the US, increased fourfold.[3] New diseases are exploding, too. Alpha gal syndrome,
+      which causes severe mammalian meat allergy in humans, was first recognized in humans in 2011. Today, an estimated
+      450,000 people live with it and most scientists consider that an undercount.[4]</p>
+    <img src="/static/img/lyme_cases.png" alt="Reported cases of Lyme diseaseover the past 10 years">
 
-        <h2>Between Fact and Fiction</h2>
-        <p>
-          So ticks really are increasing everywhere. But why now? An overview of the popular press and scientific research around ticks gives us dozens of possible reasons—climate change, resurgence of deer populations, habitat encroachment. While we will explore some of these points in our next analysis, the conclusion we got was that we simply don't know enough. 
-        </p>
-        <p>
-          Despite coexisting alongside ticks for millenia, our awareness of their public health impacts is relatively recent. Most of the illnesses associated with ticks—lyme disease included—were only discovered in the late 20th century.[8] For context, mosquito-borne illnesses have scientific research dating back to ___. Today, there are far more scientists studying the implications of ticks on our lives, but we are far from knowing what to do about it and the science is constantly evolving.
-        </p>
-        <img src="/static/img/tick_research_pubmed.png" alt="Pubmed articles about ticks">
-        <p>
-          Unsurprisingly, when a rapidly emerging public health topic breaches into popular consciousness, the uncertainty and fear it engenders creates fertile ground for the preternatural. While searches about ticks and their diseases in general are increasing, the fastest-growing search queries are related to conspiracy theories, namely a growing theory that the government is dropping boxes of ticks on farmland.
-        </p>
-        <img src="/static/img/tick_breakout_searches.png" alt="Google search interest for ticks over the past 5 years">
-        
-        <h2>The only thing we have to fear is fear itself</h2>
-        <p>
-          It is easy to dismiss these conspiracies as just another overimagination of tiktok; but when we look at the facts, it's hard to blame people for being attracted to them. For those suffering from tick-borne illnesses or living in areas where the risk is increasing, uncertainty can be very distressing. Currently, there is no widespread preventative medicine for tick borne illnesses other than avoiding green areas. As not all tick bites cause disease, the standard CDC guidance is simply to remove the tick, and wait until symptoms emerge before pursuing any treatment.[9].
-        </p>
-        <p>
-          It is therefore not surprising why many people, confronted with the complicated science of blood-sucking insects and the lack of actionable government guidance, turn to conspiracy theories. After all, when the scientifically recommended advice is simply, “stop going outside”, why wouldn't you believe that nefarious forces are behind it?
-        </p>
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bethanienack/video/7642237161525333279" data-video-id="7642237161525333279" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@bethanienack" href="https://www.tiktok.com/@bethanienack?refer=embed">@bethanienack</a> Land Owner accuses unknown Helicopter Operator of dropping Boxes of Ticks on their farm. <a title="tick" target="_blank" href="https://www.tiktok.com/tag/tick?refer=embed">#tick</a> <a title="helicopter" target="_blank" href="https://www.tiktok.com/tag/helicopter?refer=embed">#helicopter</a> <a title="farm" target="_blank" href="https://www.tiktok.com/tag/farm?refer=embed">#farm</a> <a title="scary" target="_blank" href="https://www.tiktok.com/tag/scary?refer=embed">#scary</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a target="_blank" title="♬ original sound - Bao" href="https://www.tiktok.com/music/original-sound-7642237364164676382?refer=embed">♬ original sound - Bao</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-        <p>
-          This piece had started as an exercise of personal curiosity. Every day that we've worked on this project, we've seen new podcasts, news articles, and research papers published as science continues to evolve and the crisis deepens. We struggled to piece together the research papers and government guidance and understand what it means for us.
-        </p>
-        <p>
-          As spatial data people, we wanted to read analyses of where cases are occurring and who they are impacting, and found very few. The more we read, the more questions we had. Who is most impacted by the tick-borne public health crisis? What are the factors contributing to its rapid spread? What are tick-borne diseases and how do you get them? Why is there so little information about ticks in the first place—and why are tick conspiracy theories so popular?
-        </p>
-        <p>
-          We quickly realized that this research can't be limited to just a few data visualizations or an article. Ticks deserve something bigger than that. In the next few months, we will be unpacking our findings and sharing them so that others who share our concern have a centralized repository of information. There still are more unknowns than known—but at least we can confirm that the government is not dropping boxes of ticks in farms (probably).
-        </p>
-        <h2>References</h2>
-        <ol>
-          <li id="note1">Centers for Disease Control and Prevention. (2026, April 23). CDC Data Show Weekly ER Visits for Tick Bites Higher than Usual. <a href="https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html" target="_blank">https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html</a></li>
-          <li id="note2">Rochlin I, Toledo A. (2020, June 1). Emerging tick-borne pathogens of public health importance: a mini-review. Journal of Medical Microbiology. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7451033/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC7451033/</a></li>
-          <li id="note3">Centers for Disease Control and Prevention. (2023). Dataset: County By County Lyme Disease Cases. <a href="https://www.cdc.gov/lyme/media/files/2025/02/LD_Case_Counts_by_County_2023_updated.csv" target="_blank">Click to download dataset.</a></li>
-          <li id="note4">Ross M, Daley G, Burnard ML, Sen A, Beyene E, Bisrat M, Zinabu SW, Abrie M, Michael M. (2025, July 21). Alpha-Gal on the Rise: The Alarming Growth of Alpha-Gal Syndrome in High-Risk Regions. Cureus. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12365936/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC12365936/</a></li>
-          <li id="note5">Centers for Disease Control and Prevention. (2026, Aug 13). Southward Expansion of Ixodes scapularis (Blacklegged) Tick Pathogens — Western North Carolina, November 2024–August 2025 <a href="https://www.cdc.gov/mmwr/volumes/75/wr/mm7531a1.htm" target="_blank">https://www.cdc.gov/mmwr/volumes/75/wr/mm7531a1.htm</a></li>
-          <li id="note6">Kennedy AC; BCE1; Marshall E. (2021, Jan 21).Lone Star Ticks (Amblyomma americanum): An Emerging Threat in Delaware. Delaware Journal of Public Health. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541/</a></li>
-          <li id="note7">Bolton, A. (2025, Aug 20). Ticks are migrating, but scant surveillance may leave doctors in the dark on patient treatment. NPR. <a href="https://www.npr.org/sections/shots-health-news/2025/08/20/nx-s1-5507076/ticks-are-migrating-but-scant-surveillance-may-leave-doctors-in-the-dark-on-patient-treatment" target="_blank">https://www.npr.org/sections/shots-health-news/2025/08/20/nx-s1-5507076/ticks-are-migrating-but-scant-surveillance-may-leave-doctors-in-the-dark-on-patient-treatment</a></li>
-          <li id="note8">Centers for Disease Control and Prevention. (2019). Surveillance for Ixodes scapularis and pathogens found in this tick species in the United States. <a href="https://cdc.gov/ticks/resources/TickSurveillance_Iscapularis-P.pdf" target="_blank">https://cdc.gov/ticks/resources/TickSurveillance_Iscapularis-P.pdf</a></li>
-          <li id="note9">Centers for Disease Control and Prevention. (2026, June 9). What to Do After a Tick Bite. <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank">https://www.cdc.gov/ticks/after-a-tick-bite/index.html</a></li>
-        </ol>
-    </main>
-    <script src="index.js"></script>
-  </body>
+    <h2>Between Fact and Fiction</h2>
+    <p>
+      So ticks really are increasing everywhere. But why now? An overview of the popular press and scientific research
+      around ticks gives us dozens of possible reasons—climate change, resurgence of deer populations, habitat
+      encroachment. While we will explore some of these points in our next analysis, the conclusion we got was that we
+      simply don't know enough.
+    </p>
+    <p>
+      Despite coexisting alongside ticks for millenia, our awareness of their public health impacts is relatively
+      recent. Most of the illnesses associated with ticks—lyme disease included—were only discovered in the late 20th
+      century.[8] For context, mosquito-borne illnesses have scientific research dating back to ___. Today, there are
+      far more scientists studying the implications of ticks on our lives, but we are far from knowing what to do about
+      it and the science is constantly evolving.
+    </p>
+    <img src="/static/img/tick_research_pubmed.png" alt="Pubmed articles about ticks">
+    <p>
+      Unsurprisingly, when a rapidly emerging public health topic breaches into popular consciousness, the uncertainty
+      and fear it engenders creates fertile ground for the preternatural. While searches about ticks and their diseases
+      in general are increasing, the fastest-growing search queries are related to conspiracy theories, namely a growing
+      theory that the government is dropping boxes of ticks on farmland.
+    </p>
+    <img src="/static/img/tick_breakout_searches.png" alt="Google search interest for ticks over the past 5 years">
+
+    <h2>The only thing we have to fear is fear itself</h2>
+    <p>
+      It is easy to dismiss these conspiracies as just another overimagination of tiktok; but when we look at the facts,
+      it's hard to blame people for being attracted to them. For those suffering from tick-borne illnesses or living in
+      areas where the risk is increasing, uncertainty can be very distressing. Currently, there is no widespread
+      preventative medicine for tick borne illnesses other than avoiding green areas. As not all tick bites cause
+      disease, the standard CDC guidance is simply to remove the tick, and wait until symptoms emerge before pursuing
+      any treatment.[9].
+    </p>
+    <p>
+      It is therefore not surprising why many people, confronted with the complicated science of blood-sucking insects
+      and the lack of actionable government guidance, turn to conspiracy theories. After all, when the scientifically
+      recommended advice is simply, “stop going outside”, why wouldn't you believe that nefarious forces are behind it?
+    </p>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bethanienack/video/7642237161525333279"
+      data-video-id="7642237161525333279" style="max-width: 605px;min-width: 325px;">
+      <section> <a target="_blank" title="@bethanienack"
+          href="https://www.tiktok.com/@bethanienack?refer=embed">@bethanienack</a> Land Owner accuses unknown
+        Helicopter Operator of dropping Boxes of Ticks on their farm. <a title="tick" target="_blank"
+          href="https://www.tiktok.com/tag/tick?refer=embed">#tick</a> <a title="helicopter" target="_blank"
+          href="https://www.tiktok.com/tag/helicopter?refer=embed">#helicopter</a> <a title="farm" target="_blank"
+          href="https://www.tiktok.com/tag/farm?refer=embed">#farm</a> <a title="scary" target="_blank"
+          href="https://www.tiktok.com/tag/scary?refer=embed">#scary</a> <a title="fyp" target="_blank"
+          href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a target="_blank" title="♬ original sound - Bao"
+          href="https://www.tiktok.com/music/original-sound-7642237364164676382?refer=embed">♬ original sound - Bao</a>
+      </section>
+    </blockquote>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+    <p>
+      This piece had started as an exercise of personal curiosity. Every day that we've worked on this project, we've
+      seen new podcasts, news articles, and research papers published as science continues to evolve and the crisis
+      deepens. We struggled to piece together the research papers and government guidance and understand what it means
+      for us.
+    </p>
+    <p>
+      As spatial data people, we wanted to read analyses of where cases are occurring and who they are impacting, and
+      found very few. The more we read, the more questions we had. Who is most impacted by the tick-borne public health
+      crisis? What are the factors contributing to its rapid spread? What are tick-borne diseases and how do you get
+      them? Why is there so little information about ticks in the first place—and why are tick conspiracy theories so
+      popular?
+    </p>
+    <p>
+      We quickly realized that this research can't be limited to just a few data visualizations or an article. Ticks
+      deserve something bigger than that. In the next few months, we will be unpacking our findings and sharing them so
+      that others who share our concern have a centralized repository of information. There still are more unknowns than
+      known—but at least we can confirm that the government is not dropping boxes of ticks in farms (probably).
+    </p>
+    <h2>References</h2>
+    <ol>
+      <li id="note1">Centers for Disease Control and Prevention. (2026, April 23). CDC Data Show Weekly ER Visits for
+        Tick Bites Higher than Usual. <a
+          href="https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html"
+          target="_blank">https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html</a>
+      </li>
+      <li id="note2">Rochlin I, Toledo A. (2020, June 1). Emerging tick-borne pathogens of public health importance: a
+        mini-review. Journal of Medical Microbiology. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7451033/"
+          target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC7451033/</a></li>
+      <li id="note3">Centers for Disease Control and Prevention. (2023). Dataset: County By County Lyme Disease Cases.
+        <a href="https://www.cdc.gov/lyme/media/files/2025/02/LD_Case_Counts_by_County_2023_updated.csv"
+          target="_blank">Click to download dataset.</a></li>
+      <li id="note4">Ross M, Daley G, Burnard ML, Sen A, Beyene E, Bisrat M, Zinabu SW, Abrie M, Michael M. (2025, July
+        21). Alpha-Gal on the Rise: The Alarming Growth of Alpha-Gal Syndrome in High-Risk Regions. Cureus. <a
+          href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12365936/"
+          target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC12365936/</a></li>
+      <li id="note5">Centers for Disease Control and Prevention. (2026, Aug 13). Southward Expansion of Ixodes
+        scapularis (Blacklegged) Tick Pathogens — Western North Carolina, November 2024–August 2025 <a
+          href="https://www.cdc.gov/mmwr/volumes/75/wr/mm7531a1.htm"
+          target="_blank">https://www.cdc.gov/mmwr/volumes/75/wr/mm7531a1.htm</a></li>
+      <li id="note6">Kennedy AC; BCE1; Marshall E. (2021, Jan 21).Lone Star Ticks (Amblyomma americanum): An Emerging
+        Threat in Delaware. Delaware Journal of Public Health. <a
+          href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541/"
+          target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC8352541/</a></li>
+      <li id="note7">Bolton, A. (2025, Aug 20). Ticks are migrating, but scant surveillance may leave doctors in the
+        dark on patient treatment. NPR. <a
+          href="https://www.npr.org/sections/shots-health-news/2025/08/20/nx-s1-5507076/ticks-are-migrating-but-scant-surveillance-may-leave-doctors-in-the-dark-on-patient-treatment"
+          target="_blank">https://www.npr.org/sections/shots-health-news/2025/08/20/nx-s1-5507076/ticks-are-migrating-but-scant-surveillance-may-leave-doctors-in-the-dark-on-patient-treatment</a>
+      </li>
+      <li id="note8">Centers for Disease Control and Prevention. (2019). Surveillance for Ixodes scapularis and
+        pathogens found in this tick species in the United States. <a
+          href="https://cdc.gov/ticks/resources/TickSurveillance_Iscapularis-P.pdf"
+          target="_blank">https://cdc.gov/ticks/resources/TickSurveillance_Iscapularis-P.pdf</a></li>
+      <li id="note9">Centers for Disease Control and Prevention. (2026, June 9). What to Do After a Tick Bite. <a
+          href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html"
+          target="_blank">https://www.cdc.gov/ticks/after-a-tick-bite/index.html</a></li>
+    </ol>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
