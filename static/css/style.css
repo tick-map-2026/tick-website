@@ -126,24 +126,6 @@ li {
     opacity: 1;
   }
 
-/* Parallax text */
-@keyframes text-parallax {
-  from {
-    transform: translate(-50%, -50%);
-  }
-  to {
-    transform: translate(-50%, -19%);
-  }
-}
-
-@supports (animation-timeline: scroll()) {
-  .text-box {
-    animation: text-parallax linear both;
-    animation-timeline: scroll();
-    animation-range: 0 100vh; 
-  }
-}
-
 /* Median queries */
   @media (max-width: 900px) {
     main {
