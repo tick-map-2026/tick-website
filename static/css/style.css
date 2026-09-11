@@ -47,6 +47,7 @@ h3 {
 
 p {
     font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /*Hero*/
@@ -89,6 +90,7 @@ li {
   font-size: 0.9rem;
   margin: 0 0 1rem 1rem;
   overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 :target {
