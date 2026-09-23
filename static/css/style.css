@@ -1,5 +1,6 @@
 html {
     overscroll-behavior: none;
+    overflow-x: hidden;
 }
 
 
@@ -110,22 +111,31 @@ li {
 
 .cite img {
     display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.6rem;
+    height: 1.6rem;
   }
 
 .cite .tooltip {
     visibility: hidden;
     position: absolute;
-    width: 400px;
-    left: calc(100% + 2rem);
-    transform: translate(-1rem,-2rem);
-    padding: 0.8rem;
+    right: 0.7rem; 
+    width: 300px;
+    font-size: 1.2rem;
+    transform: translate(0,-43%);
+    padding-right: 4rem;
 }
 
   .cite:hover .tooltip {
     visibility: visible;
     opacity: 1;
+  }
+
+
+  .caption {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(111, 111, 111);
   }
 
 /* Median queries */
